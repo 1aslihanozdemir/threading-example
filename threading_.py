@@ -4,7 +4,7 @@ import time
 
 def thread_function(number):
     for i in range(number):
-        print(str(i))
+        print(i)
         time.sleep(1)
 
 def function(number):
